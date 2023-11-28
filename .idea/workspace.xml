@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6001863c-e8c7-43bf-a846-982b7c158b08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ContainsDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LongestPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MedianOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PalindromeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RomanToInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreeSum.java" afterDir="false" />
-    </list>
+    <list default="true" id="6001863c-e8c7-43bf-a846-982b7c158b08" name="Changes" comment="Testing git ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,11 +146,33 @@
       <workItem from="1700953552540" duration="247000" />
       <workItem from="1701026246227" duration="2318000" />
       <workItem from="1701043539046" duration="2147000" />
-      <workItem from="1701203799040" duration="325000" />
+      <workItem from="1701203799040" duration="695000" />
     </task>
+    <task id="LOCAL-00001" summary="Committing my code on some leet code problems">
+      <option name="closed" value="true" />
+      <created>1701204450805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701204450805</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Testing git ignore">
+      <option name="closed" value="true" />
+      <created>1701204488337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701204488337</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Committing my code on some leet code problems" />
+    <MESSAGE value="Testing git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing git ignore" />
   </component>
 </project>

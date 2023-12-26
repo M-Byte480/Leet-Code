@@ -1,3 +1,5 @@
+package Session1.medium;
+
 import java.util.HashSet;
 
 public class LongestSubstringWithoutRepeatingCharacters {

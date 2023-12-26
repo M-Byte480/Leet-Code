@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6001863c-e8c7-43bf-a846-982b7c158b08" name="Changes" comment="Testing git ignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Microsoft/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Microsoft/LongestPalindromicString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Microsoft/MedianOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Microsoft/MergeTwoSortedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Microsoft/ValidParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6001863c-e8c7-43bf-a846-982b7c158b08" name="Changes" comment="Added practice questions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/FirstOccurenceOfString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/InlineRemoveElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/IsStringPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/RemoveDupesFromSorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/RemoveSingleNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/StringToInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/easy/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MedianOfTwoArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/easy/AddTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/ReverseInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Session1/LongestPalindromicString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/LongestPalindromicString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Session1/MedianOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/hard/MedianOfTwoArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +49,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.LongestPalindromicString.executor": "Run",
+    "Application.InlineRemoveElement.executor": "Run",
+    "Application.IsStringPalindrome.executor": "Debug",
+    "Application.LengthOfLastWord.executor": "Run",
+    "Application.LongestPalindromicString.executor": "Debug",
     "Application.MedianOfTwoArrays.executor": "Run",
     "Application.MergeTwoSortedLinkedList.executor": "Run",
+    "Application.PlusOne.executor": "Run",
+    "Application.RemoveDupesFromSorted.executor": "Run",
+    "Application.RemoveSingleNumber.executor": "Run",
+    "Application.StringToInteger.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,20 +79,52 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeTwoSortedLinkedList">
-    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ContainsDuplicate" />
+  <component name="RunManager" selected="Application.InlineRemoveElement">
+    <configuration name="InlineRemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session1.InlineRemoveElement" />
       <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Session1.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session1.IsStringPalindrome" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Session1.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session1.LengthOfLastWord" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Session1.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LongestPalindromicString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Microsoft.LongestPalindromicString" />
+      <option name="MAIN_CLASS_NAME" value="Session1.medium.LongestPalindromicString" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Microsoft.*" />
+          <option name="PATTERN" value="Session1.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,60 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LongestPrefix" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MedianOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Microsoft.MedianOfTwoArrays" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MedianOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MedianOfTwoArrays" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeTwoSortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Microsoft.MergeTwoSortedLinkedList" />
+    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session1.PlusOne" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Microsoft.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseInteger" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThreeSum" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Microsoft.ValidParenthesis" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Microsoft.*" />
+          <option name="PATTERN" value="Session1.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeTwoSortedLinkedList" />
-        <item itemvalue="Application.ValidParenthesis" />
-        <item itemvalue="Application.MedianOfTwoArrays" />
+        <item itemvalue="Application.InlineRemoveElement" />
+        <item itemvalue="Application.PlusOne" />
+        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.IsStringPalindrome" />
         <item itemvalue="Application.LongestPalindromicString" />
-        <item itemvalue="Application.ThreeSum" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +179,10 @@
       <workItem from="1701043539046" duration="2147000" />
       <workItem from="1701203799040" duration="2090000" />
       <workItem from="1701551906420" duration="71000" />
-      <workItem from="1703374183529" duration="5052000" />
+      <workItem from="1703374183529" duration="5254000" />
+      <workItem from="1703416017508" duration="4345000" />
+      <workItem from="1703546038622" duration="2943000" />
+      <workItem from="1703599289933" duration="5215000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my code on some leet code problems">
       <option name="closed" value="true" />
@@ -207,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701204529108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added practice questions">
+      <option name="closed" value="true" />
+      <created>1703379839772</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703379839773</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,17 +225,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Committing my code on some leet code problems" />
     <MESSAGE value="Testing git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing git ignore" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Microsoft/MergeTwoSortedLinkedList.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Added practice questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practice questions" />
   </component>
 </project>

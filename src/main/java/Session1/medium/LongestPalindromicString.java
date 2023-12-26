@@ -1,4 +1,4 @@
-package Session1;
+package Session1.medium;
 
 public class LongestPalindromicString {
   public static String getLongest(String s) {
@@ -32,11 +32,12 @@ public class LongestPalindromicString {
       rightPointer++;
     }
 
+    // Derive the return value: 
     // (rightPointer - 1) - (leftPointer + 1) + 1
     // (rightPointer - 1 - leftPointer - 1 + 1
     return rightPointer - leftPointer - 1;
   }
   public static void main(String[] args) {
-    System.out.println(getLongest("naneajfnaofenonefaoneognrsogn"));
+    System.out.println(getLongest("amanaplanacanalpanama"));
   }
 }

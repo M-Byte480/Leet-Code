@@ -4,22 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6001863c-e8c7-43bf-a846-982b7c158b08" name="Changes" comment="Added practice questions">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/FirstOccurenceOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/InlineRemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/IsStringPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/LengthOfLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/RemoveDupesFromSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/RemoveSingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/StringToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/easy/TwoSum.java" afterDir="false" />
+    <list default="true" id="6001863c-e8c7-43bf-a846-982b7c158b08" name="Changes" comment="on the grind">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/LargestArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/ZigZagConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/easy/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Session1/LongestPalindromicString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/LongestPalindromicString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Session1/MedianOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/hard/MedianOfTwoArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +48,7 @@
     "Application.RemoveSingleNumber.executor": "Run",
     "Application.StringToInteger.executor": "Run",
     "Application.ValidParenthesis.executor": "Run",
+    "Application.ZigZagConversion.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -79,7 +68,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InlineRemoveElement">
+  <component name="RunManager" selected="Application.ZigZagConversion">
     <configuration name="InlineRemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Session1.InlineRemoveElement" />
       <module name="LeetCode" />
@@ -119,19 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Session1.medium.LongestPalindromicString" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Session1.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Session1.PlusOne" />
       <module name="LeetCode" />
@@ -145,13 +121,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZigZagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session1.medium.ZigZagConversion" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Session1.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZigZagConversion" />
         <item itemvalue="Application.InlineRemoveElement" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.LengthOfLastWord" />
         <item itemvalue="Application.IsStringPalindrome" />
-        <item itemvalue="Application.LongestPalindromicString" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +171,8 @@
       <workItem from="1703374183529" duration="5254000" />
       <workItem from="1703416017508" duration="4345000" />
       <workItem from="1703546038622" duration="2943000" />
-      <workItem from="1703599289933" duration="5215000" />
+      <workItem from="1703599289933" duration="5920000" />
+      <workItem from="1703693260794" duration="4287000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my code on some leet code problems">
       <option name="closed" value="true" />
@@ -216,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703379839773</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="on the grind">
+      <option name="closed" value="true" />
+      <created>1703604883414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703604883415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +224,7 @@
     <MESSAGE value="Committing my code on some leet code problems" />
     <MESSAGE value="Testing git ignore" />
     <MESSAGE value="Added practice questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added practice questions" />
+    <MESSAGE value="on the grind" />
+    <option name="LAST_COMMIT_MESSAGE" value="on the grind" />
   </component>
 </project>

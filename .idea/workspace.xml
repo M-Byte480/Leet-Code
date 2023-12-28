@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6001863c-e8c7-43bf-a846-982b7c158b08" name="Changes" comment="on the grind">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/LargestArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/ZigZagConversion.java" afterDir="false" />
+    <list default="true" id="6001863c-e8c7-43bf-a846-982b7c158b08" name="Changes" comment="LargestArea, ZigZagConversion">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/PhoneDigitsToLetters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Session1/medium/LargestArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Session1/medium/LargestArea.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,11 +39,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.InlineRemoveElement.executor": "Run",
+    "Application.IntegerToRoman.executor": "Debug",
     "Application.IsStringPalindrome.executor": "Debug",
     "Application.LengthOfLastWord.executor": "Run",
     "Application.LongestPalindromicString.executor": "Debug",
     "Application.MedianOfTwoArrays.executor": "Run",
     "Application.MergeTwoSortedLinkedList.executor": "Run",
+    "Application.PhoneDigitsToLetters.executor": "Debug",
     "Application.PlusOne.executor": "Run",
     "Application.RemoveDupesFromSorted.executor": "Run",
     "Application.RemoveSingleNumber.executor": "Run",
@@ -68,7 +71,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZigZagConversion">
+  <component name="RunManager" selected="Application.PhoneDigitsToLetters">
     <configuration name="InlineRemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Session1.InlineRemoveElement" />
       <module name="LeetCode" />
@@ -82,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsStringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Session1.IsStringPalindrome" />
+    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session1.medium.IntegerToRoman" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Session1.hard.*" />
+          <option name="PATTERN" value="Session1.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Session1.LengthOfLastWord" />
+    <configuration name="PhoneDigitsToLetters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Session1.medium.PhoneDigitsToLetters" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Session1.hard.*" />
+          <option name="PATTERN" value="Session1.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneDigitsToLetters" />
+        <item itemvalue="Application.IntegerToRoman" />
         <item itemvalue="Application.ZigZagConversion" />
         <item itemvalue="Application.InlineRemoveElement" />
         <item itemvalue="Application.PlusOne" />
-        <item itemvalue="Application.LengthOfLastWord" />
-        <item itemvalue="Application.IsStringPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +175,8 @@
       <workItem from="1703416017508" duration="4345000" />
       <workItem from="1703546038622" duration="2943000" />
       <workItem from="1703599289933" duration="5920000" />
-      <workItem from="1703693260794" duration="4287000" />
+      <workItem from="1703693260794" duration="4379000" />
+      <workItem from="1703721066106" duration="2774000" />
     </task>
     <task id="LOCAL-00001" summary="Committing my code on some leet code problems">
       <option name="closed" value="true" />
@@ -214,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703604883415</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LargestArea, ZigZagConversion">
+      <option name="closed" value="true" />
+      <created>1703714074357</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703714074357</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +237,18 @@
     <MESSAGE value="Testing git ignore" />
     <MESSAGE value="Added practice questions" />
     <MESSAGE value="on the grind" />
-    <option name="LAST_COMMIT_MESSAGE" value="on the grind" />
+    <MESSAGE value="LargestArea, ZigZagConversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="LargestArea, ZigZagConversion" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Session1/medium/PhoneDigitsToLetters.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

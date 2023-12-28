@@ -23,9 +23,6 @@ public class LargestArea {
         p2--;
       }
     }
-
     return maxArea;
   }
-
-
 }

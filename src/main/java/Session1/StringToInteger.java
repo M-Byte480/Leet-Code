@@ -23,12 +23,10 @@ public class StringToInteger {
       if(maxLimit < result || (maxLimit == result && digit > Integer.MAX_VALUE % 10)){ // 7
         return neg ? Integer.MIN_VALUE : Integer.MAX_VALUE;
       }
-
       result = result * 10 + digit;
 
       p++;
     }
-
     return neg ? -result : result;
   }
 

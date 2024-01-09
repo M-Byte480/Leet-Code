@@ -1,4 +1,6 @@
-package Session1;
+package Session1.easy;
+
+import Session1.ListNode;
 
 public class MergeTwoSortedLinkedList {
 

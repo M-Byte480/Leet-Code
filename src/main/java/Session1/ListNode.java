@@ -20,9 +20,10 @@ public class ListNode {
 
   public String toString(){
     StringBuilder a = new StringBuilder();
-    while(next != null){
-      a.append(val);
-      next = next.next;
+    ListNode current = this;
+    while(current != null){
+      a.append(current.val);
+      current = current.next;
     }
     return a.toString();
   }
